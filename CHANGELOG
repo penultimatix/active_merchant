@@ -1,5 +1,30 @@
 = ActiveMerchant CHANGELOG
 
+* Moneris: Add optional (off by default) verification_value support [duff]
+* Spreedly: Pass country with other address fields [hoenth]
+* SecureNet: Fix order of xml params [duff]
+* Paymill: Add support for void [duff]
+* Add MoneyMovers gateway [jeffutter]
+* Ogone: Add a :store_amount option [rymai]
+* Ogone: Require TLSv1 [ntalbott]
+* Moneris: Add support for purchasecorrection [pgib]
+* Spreedly: Add ability to retain on success [duff]
+* Spreedly: Pass verification value [duff]
+* Paymill: Add support for specifying the :customer [Sbastien]
+* Realex: Correct AVS input format [ExxKA]
+* USAEpay Transaction: Use sandbox when in test mode [radar]
+* Braintree Blue: Do not use global config [rdj]
+* eWay Rapid: Add response messages [BenZhang]
+* Paysbuy: Add 'Pending' notification status [divineforest]
+* Cybersource: Use standard :phone field [cade]
+* Orbital: Fix/tweak AVS codes [boone]
+* Quickpay: Add v7 support [larspind]
+* Authorize.Net CIM: Add option to not mark transactions as test [alanandrade]
+
+== Version 1.38.1 (September 16, 2013)
+
+* Moneris: Remove verification_value support [melari]
+
 == Version 1.38.0 (September 6, 2013)
 
 * FirstData E4: Include missing address information for AVS and CVV [melari]
